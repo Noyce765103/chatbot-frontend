@@ -4,7 +4,7 @@ import axios from 'axios'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
-Vue.propTypes.$axios = axios
+Vue.prototype.$axios = axios
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 
